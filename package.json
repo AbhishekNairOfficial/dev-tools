@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint --fix . && yarn pretty && git add .",
-    "pretty": "prettier --single-quote --jsx-single-quote --write 'src/**/*.js'",
+    "pretty": "prettier --single-quote --jsx-single-quote --write 'src/**/*.*'",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
