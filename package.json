@@ -1,10 +1,9 @@
 {
-  "name": "react-routerm",
-  "version": "0.1.0",
-  "private": true,
+  "name": "dev-tools-tutorial",
+  "version": "1.0.0",
   "author": {
-    "name": "saigowthamr",
-    "email": "saigowthamr@gmail.com"
+    "name": "Abhishek P",
+    "email": "abhisheknr4@gmail.com"
   },
   "dependencies": {
     "axios": "^0.19.0",
@@ -34,7 +33,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.2",
