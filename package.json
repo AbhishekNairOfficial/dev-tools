@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
+    "gh-pages": "^2.0.1",
     "react": "*",
     "react-dom": "*",
     "react-router-dom": "*",
@@ -16,9 +17,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "lint": "eslint --fix . && npm run pretty && git add .",
+    "lint": "eslint --fix . && yarn pretty && git add .",
     "pretty": "prettier --single-quote --jsx-single-quote --write 'src/**/*.js'",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -38,5 +41,6 @@
     "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-react-hooks": "^1.6.1",
     "prettier": "^1.18.2"
-  }
+  },
+  "homepage": "https://abhisheknairofficial.github.io/dev-tools"
 }
