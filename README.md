@@ -1,15 +1,22 @@
-# React Router Dom v4.2.2 boiler plate
+# Chrome Developer Tools Tutorial
 
-## Active link styles are also added
-easy to use for your next project
+This contains code for my session, and can be used to further your understanding on Dev Tools.
 
+---
 
-## Header is also included
-and splitted in separate files
+## Installation
 
+Once you've cloned this repository to your local, run:
 
+`npm install` or   `yarn`
 
-## npm install
- to install dependencies
+After installation is complete, run the server using:
 
+`npm start` or  `yarn start`
+
+---
+
+## Links
+
+ [My Medium Article](https://medium.com/@abhisheknairp/how-to-make-the-most-of-chrome-developer-tools-e0af605dffb).
 
