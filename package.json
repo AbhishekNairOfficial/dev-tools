@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "lint": "eslint --fix . && git add .",
+    "lint": "eslint --fix . && npm run pretty && git add .",
+    "pretty": "prettier --single-quote --jsx-single-quote --write 'src/**/*.js'",
     "eject": "react-scripts eject"
   },
   "browserslist": {
