@@ -1,0 +1,16 @@
+.element-container {
+    padding:15px;
+}
+.paragraph {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.clickableTitle {
+    cursor: pointer;
+}
+.hoverAble {
+    display: inline-block;
+}
+.hoverAble:hover {
+    color: green;
+}
