@@ -12,11 +12,11 @@ class ReactRouter extends React.Component {
             <div>
                 <Header />
                 <Switch>
-                    <Redirect path='/' to={process.env.PUBLIC_URL + '/elements'} />
-                    <Route path={process.env.PUBLIC_URL + '/elements'} component={Elements} />
-                    <Route path={process.env.PUBLIC_URL + '/console'} component={Console} />
-                    <Route path={process.env.PUBLIC_URL + '/sources'} component={Sources} />
-                    <Route path={process.env.PUBLIC_URL + '/network'} component={Network} />
+                    <Redirect exact path='/' to={process.env.PUBLIC_URL + '/elements'} />
+                    <Route path='/elements' component={Elements} />
+                    <Route path='/console' component={Console} />
+                    <Route path='/sources' component={Sources} />
+                    <Route path='/network' component={Network} />
                 </Switch>
             </div>
         );

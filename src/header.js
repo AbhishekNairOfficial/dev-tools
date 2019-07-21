@@ -10,28 +10,28 @@ const Header = () => {
                 <NavLink
                     className='link'
                     exact
-                    to='/elements'
+                    to={process.env.PUBLIC_URL + '/elements'}
                     activeStyle={{ color: '#000' }}
                 >
                     Elements
                 </NavLink>
                 <NavLink
                     className='link'
-                    to='/console'
+                    to={process.env.PUBLIC_URL + '/console'}
                     activeStyle={{ color: '#000' }}
                 >
                     Console
                 </NavLink>
                 <NavLink
                     className='link'
-                    to='/sources'
+                    to={process.env.PUBLIC_URL + '/sources'}
                     activeStyle={{ color: '#000' }}
                 >
                     Sources
                 </NavLink>
                 <NavLink
                     className='link'
-                    to='/network'
+                    to={process.env.PUBLIC_URL + '/network'}
                     activeStyle={{ color: '#000' }}
                 >
                     Network
