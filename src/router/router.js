@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Redirect, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import Header from '../header';
 import Elements from '../components/Elements';
 import Console from '../components/Console';
@@ -11,13 +11,13 @@ class ReactRouter extends React.Component {
         return (
             <div>
                 <Header />
-                <Switch>
-                    <Redirect exact path='/' to={process.env.PUBLIC_URL + '/elements'} />
+                <Router basename='/'>
+                    <Route exact path='/' component={Elements} />
                     <Route path='/elements' component={Elements} />
                     <Route path='/console' component={Console} />
                     <Route path='/sources' component={Sources} />
                     <Route path='/network' component={Network} />
-                </Switch>
+                </Router>
             </div>
         );
     }
