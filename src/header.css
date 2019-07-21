@@ -20,3 +20,9 @@
 .link:active {
     color: #000;
 }
+
+@media only screen and (max-width: 600px) {
+    .link {
+        font-size: 1.2rem;
+    }
+}
